@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="Content-Style-Type" content="text/css">
+    <title>Mal Nolan's Project</title>
+    <meta name="Generator" content="Cocoa HTML Writer">
+    <meta name="CocoaVersion" content="1671.5">
+    <style type="text/css">
+      p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    </style>
+</head>
+<body>
+
+  <form action = './cgi-bin/QUERY1.py' method='GET'>
+  <p><h2> Enter the name of the part in which you want supplier information about<h2></p>
+  <p>Enter Part name</p>
+  <input type= 'text' pname = 'pname'><br>
+  <input type= 'submit' value = 'Submit'>
+  </form>
+
+  <form action = './cgi-bin/Query2.py' method='GET'>
+    <p><h2> Enter cost and returns the names suppliers who've supplier a part at that cost of higher<h2></p>
+    <p>Enter Cost</p>
+    <input type= 'text' cost = 'cost'><br>
+    <input type= 'submit' value = 'Submit'>
+  </form>
+
+  <form action = './cgi-bin/Query3.py' method='GET'>
+    <p><h2>Enter the pid and returns the supplier who charges the most for that part <h2></p>
+    <p>Enter Pid</p>
+    <input type= 'text' pid = 'pid'><br>
+    <input type= 'submit' value = 'Submit'>
+  </form>
+
+
+
+  <form action = './cgi-bin/Query4.py' method='GET'>
+    <p><h2> Enter the address and color and returns the parts of that color supplied by all suppliers<h2></p>
+    <p>Enter Color and Address</p>
+    <input type= 'text' color = 'color'><br>
+    <input type= 'text' address = 'address'><br>
+    <input type= 'submit' value = 'Submit'>
+  </form>
+
+
+  <form action = './cgi-bin/Query5.py' method='GET'>
+    <p><h2> Enter the name of the part in which you want supplier information about<h2></p>
+    <p>Enter Address</p>
+    <input type= 'text' address2 = 'address'><br>
+    <input type= 'submit' value = 'Submit'>
+  </form>
+</body>
+</html>
